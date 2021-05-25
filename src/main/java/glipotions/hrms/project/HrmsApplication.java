@@ -1,0 +1,17 @@
+package glipotions.hrms.project;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import glipotions.hrms.project.entities.concretes.JobPosition;
+
+@SpringBootApplication
+public class HrmsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HrmsApplication.class, args);
+		JobPosition jobPosition=new JobPosition();
+		
+	}
+
+}
